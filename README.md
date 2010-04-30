@@ -18,8 +18,8 @@ Now whenever you do something stupid like
       <%= file_field_tag :wont_work %>
     <% end %>
 
-The `NeverForgetMultipart::NeverForgetMultipartException` exception with the
-following message will be raised
+The `NeverForgetMultipartException` exception will be raised with the
+following helpful message
 
     it looks like you have included file input field
     on the form without setting forms `:multipart => true' option.
